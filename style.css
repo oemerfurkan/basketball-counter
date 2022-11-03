@@ -1,0 +1,37 @@
+#container{
+    width: 400px;
+    height: 250px;
+    background: #aaaaaa;
+    margin: 15% auto;
+    text-align: center;
+}
+
+#ev-container {
+    display: inline-block;
+    width: 49%;
+    height: 50%;
+    text-align: center;
+}
+
+#de-container {
+    display: inline-block;
+    width: 49%;
+    height: 50%;
+    text-align: center;
+}
+
+#ev-buttons {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+#de-buttons {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+#buttons {
+    text-align: right;
+}

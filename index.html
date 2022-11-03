@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="ev-container">
+        <p>Ev</p>
+        <p id="ev-counter">0</p>
+      </div>
+      <div id="de-container">
+        <p>Desplasman</p>
+        <p id="de-counter">0</p>
+      </div>
+      <div id="ev-buttons">
+        <button id="counter1" onclick="ev1()">+1</button>
+        <button id="counter2" onclick="ev2()">+2</button>
+        <button id="counter3" onclick="ev3()">+3</button>
+      </div>
+      <div id="de-buttons">
+        <button id="de-counter1" onclick="de1()">+1</button>
+        <button id="de-counter2" onclick="de2()">+2</button>
+        <button id="de-counter3" onclick="de3()">+3</button>
+      </div>
+      <button id="reset" onclick="reset()">Reset</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
